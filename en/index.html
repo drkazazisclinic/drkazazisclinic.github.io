@@ -127,6 +127,27 @@
       color: #700;
       padding: 1rem 0;
     }
+    /* ——— Calendly Button ——— */
+    .calendly-btn {
+      display: inline-block;
+      width: 100%;
+      background-color: #002f5f;
+      color: #fff !important;
+      padding: 0.8rem 1rem;
+      border-radius: 6px;
+      text-align: center;
+      text-decoration: none !important;
+      font-weight: 600;
+      font-size: 0.95rem;
+      box-shadow: 0 2px 6px rgba(0, 47, 95, 0.25);
+      transition: background-color 0.2s, transform 0.15s, box-shadow 0.2s;
+    }
+
+    .calendly-btn:hover {
+      background-color: #00458a;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(0, 47, 95, 0.35);
+    }
   </style>
 
   <!-- ——— (Optional) Blog loader to show same posts as GR ——— -->
@@ -192,6 +213,11 @@
       </section>
 
       <aside class="sidebar card">
+        <div style="margin-bottom: 1.5rem;">
+          <a class="calendly-btn" href="https://calendly.com/dimismd/30min" target="_blank" rel="noopener noreferrer">
+            📅 Book an Appointment
+          </a>
+        </div>
         <h3>Reading</h3>
         <ul>
           <li><a href="https://www.merckmanuals.com/professional" target="_blank" rel="noopener">Merck Manual
